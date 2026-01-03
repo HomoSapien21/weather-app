@@ -35,7 +35,7 @@ A stunning, modern weather application built with **Next.js 15**, **TypeScript**
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/weather-app.git
+   git clone https://github.com/HomoSapien21/weather-app.git
    cd weather-app
    ```
 
