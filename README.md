@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ Glassmorphism Weather App
 
-## Getting Started
+A stunning, modern weather application built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This app features a high-end glassmorphism UI and dynamic backgrounds that change based on the real-time temperature of the searched city.
 
-First, run the development server:
+![Weather App Preview](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3N3hhN3RkNW8zdXYybmp0Mm91MTVwZ3N2eWdtN3Fpbm9mdW55aW54OCZlcD12MV9pbnRlcm5hbF9naWZzX3NlYXJjaCZjdD1n/xT0Gqz4x4eLd5gDtaU/giphy.gif)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **🔮 Glassmorphism UI**: A premium design with frosted glass effects and backdrop blurs.
+- **🌆 Dynamic Backgrounds**: The background GIF changes automatically based on the temperature:
+  - **Cold (< 0°C)**: Icy/Snowy theme.
+  - **Mild (1 - 20°C)**: Pleasant/Cool theme.
+  - **Warm (> 20°C)**: Sunny/Hot theme.
+- **🌍 Global Search**: Search for any city worldwide using the **Open-Meteo Geocoding API**.
+- **📊 Real-time Data**: Fetches precise weather data (temperature, wind speed, location) via the **Open-Meteo Forecast API**.
+- **⚡ Fast & Responsive**: Optimized for all devices using Tailwind CSS and Next.js App Router.
+- **🛡️ Error Handling**: Intelligent handling for invalid city names.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **API Requests**: [Axios](https://axios-http.com/)
+- **Weather Provider**: [Open-Meteo API](https://open-meteo.com/) (No API Key Required!)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/weather-app.git
+   cd weather-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app:**
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+```text
+weather-app/
+├── src/
+│   ├── app/           # App router (layout and entry page)
+│   └── components/    # Reusable UI components (Weather.tsx)
+├── public/            # Static assets
+└── ...                # Configuration files (Tailwind, TypeScript, etc.)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 License
 
-## Learn More
+This project is open-source and available under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed with ❤️ using Next.js and Tailwind CSS.
