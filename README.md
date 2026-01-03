@@ -2,6 +2,8 @@
 
 A stunning, modern weather application built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This app features a high-end glassmorphism UI and dynamic backgrounds that change based on the real-time temperature of the searched city.
 
+**Live Demo:** [https://weather-app-ivory-gamma-93.vercel.app/](https://weather-app-ivory-gamma-93.vercel.app/)
+
 ![Weather App Preview](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3N3hhN3RkNW8zdXYybmp0Mm91MTVwZ3N2eWdtN3Fpbm9mdW55aW54OCZlcD12MV9pbnRlcm5hbF9naWZzX3NlYXJjaCZjdD1n/xT0Gqz4x4eLd5gDtaU/giphy.gif)
 
 ## ✨ Features
